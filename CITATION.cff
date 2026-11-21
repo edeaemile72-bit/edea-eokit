@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use EDEA-EOKit in your work, please cite this software and the associated paper."
+title: "EDEA-EOKit: a tested and reproducible Python chain for surface water and flood mapping from optical satellite imagery"
+version: 1.0.3
+date-released: 2026-11-21
+type: software
+license: MIT
+abstract: >-
+  EDEA-EOKit reads a multiband GeoTIFF, applies the correct radiometric scaling for the
+  sensor, masks clouds, computes NDWI, MNDWI, AWEI and NDVI, converts pixels into hectares
+  using the real ground size of a pixel, and quantifies the optimistic bias of random
+  validation designs against spatial block cross-validation.
+authors:
+  - family-names: "EDEA"
+    given-names: "Obognon Emile"
+    affiliation: "Laboratoire de Biogéographie et Expertise Environnementale (LABEE), Faculté des Sciences Humaines et Sociales, Université d'Abomey-Calavi, Benin; Institut National du Cadre de Vie (ICaV), Benin"
+    email: "edeaemile72@gmail.com"
+  - family-names: "PLAGBETO"
+    given-names: "Hermann Arnaud"
+    affiliation: "Laboratoire de Biogéographie et Expertise Environnementale (LABEE), Faculté des Sciences Humaines et Sociales, Université d'Abomey-Calavi, Benin"
+  - family-names: "OLOUKOI"
+    given-names: "Joseph"
+    affiliation: "Université d'Abomey-Calavi, Faculté des Lettres, Arts et Sciences Humaines, Benin; Institut Régional Africain des Sciences et Technologies de l'Information Géospatiale (AFRIGIST), Nigeria"
+repository-code: "https://github.com/edeaemile72-bit/edea-eokit"
+url: "https://github.com/edeaemile72-bit/edea-eokit"
+keywords:
+  - remote sensing
+  - surface water
+  - flood mapping
+  - Sentinel-2
+  - spatial cross-validation
+  - reproducibility
